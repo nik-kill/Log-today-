@@ -9,8 +9,6 @@ from logging.handlers import SMTPHandler
 from logging.handlers import RotatingFileHandler
 import os
 
-
-
 app = Flask(__name__)
 app.config['DEBUG'] = True
 app.config.from_object(Config)
